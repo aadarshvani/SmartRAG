@@ -111,26 +111,6 @@ CHUNK_OVERLAP=150
 streamlit run main.py --server.port 8501
 ```
 
-### Docker Deployment
-```dockerfile
-FROM python:3.9-slim
-
-WORKDIR /app
-COPY . .
-RUN pip install -r requirements.txt
-
-EXPOSE 8501
-CMD ["streamlit", "run", "main.py", "--server.address", "0.0.0.0"]
-```
-
-### Cloud Deployment
-Compatible with:
-- Streamlit Community Cloud
-- Heroku
-- AWS EC2
-- Google Cloud Platform
-- Azure Container Instances
-
 ## Troubleshooting
 
 ### Common Issues
@@ -146,23 +126,11 @@ Compatible with:
 - Use RAG mode for faster responses with uploaded documents
 - Clear chat history regularly for better performance
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 **Aadarsh Vani**  
 Gen AI Data Scientist  
-[GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile)
+[GitHub](https://github.com/aadarshvani) | [LinkedIn](https://www.linkedin.com/in/aadarsh-vani-a60a641a0/)
 
 ## Acknowledgments
 
